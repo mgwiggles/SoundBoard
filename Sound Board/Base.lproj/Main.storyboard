@@ -103,8 +103,10 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="addButton" destination="izU-Fb-R5t" id="AXl-Cd-GIU"/>
                         <outlet property="nameTextField" destination="jKy-qT-6oR" id="0ZR-S2-2CP"/>
-                        <outlet property="recordButton" destination="osq-vr-7I1" id="7SI-lC-1Pk"/>
+                        <outlet property="playButton" destination="zO7-Ga-6ui" id="LG2-04-SKp"/>
+                        <outlet property="recordButton" destination="J8t-4B-7lj" id="YJj-zk-IPr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xHN-bR-PGW" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -116,7 +118,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4Rv-YA-SJQ" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dM4-UY-Uup">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="dM4-UY-Uup">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
